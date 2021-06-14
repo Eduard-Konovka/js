@@ -17,16 +17,16 @@ console.log(rand1);
 
 // Генератор целых псевдослучайных чисел в диапазоне 0...100
 let rand2 = Number.parseInt(Math.random() * 100); 
-console.log(rand2);
+console.log('Диапазон 0...100 - Number.parseInt:', rand2);
 // Или
 let rand3 = Math.round(Math.random() * 100); 
-console.log(rand3);
+console.log('Диапазон 0...100 - Math.round:', rand3);
 
 // Генератор целых псевдослучайных чисел в диапазоне min...max
 const max = 100;
 const min = 90;
 let rand4 = Number.parseInt(Math.random() * (max - min) + min); 
-console.log(rand4);
+console.log('Диапазон min...max - Number.parseInt:', rand4);
 // Или
 let rand5 = Math.round(Math.random() * (max - min) + min); 
-console.log(rand5);
+console.log('Диапазон min...max - Math.round:', rand5);
