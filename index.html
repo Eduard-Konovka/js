@@ -1,14 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Java Script</title>
-</head>
-<body>
-    <script src="./js/script-1.js" type="module"></script>
-    <script src="./js/script-2.js" type="module"></script>
-    <script src="./js/script-3.js" type="module"></script>
-</body>
+    <style>
+      body {
+        font-family: sans-serif;
+        padding: 1rem;
+      }
+    
+      button {
+        margin: 10px;
+        font-size: 16px;
+        font-family: inherit;
+        cursor: pointer;
+      }
+    
+      .counter {
+        display: flex;
+        align-items: center;
+      }
+    
+      .counter>p {
+        margin: 0;
+        font-size: 48px;
+        font-family: monospace;
+      }
+
+      .article {
+        width: 320px;
+        margin-bottom: 32px;
+      }
+
+      .article-text {
+        color: #F26419;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="counter">
+        <button class="js-decrement">Уменьшить</button>
+        <p class="js-value">0</p>
+        <button class="js-increment">Увеличить</button>
+    </div>
+
+    <article class="article">
+      <h2>Article title</h2>
+    </article>
+    
+    <hr>
+    
+    <section>
+      <h2>Latest Technologies</h2>
+      <ul class="list"></ul>
+    </section>
+    <script src="./index.js" type="module"></script>
+  </body>
 </html>
