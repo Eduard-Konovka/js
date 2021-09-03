@@ -1,6 +1,7 @@
 // ---------- EXAMPLES ---------
 // import './js/script-0.js'
-import './js/local-storage.js'
+// import './js/local-storage.js'
+import './js/async.js'
 
 // ---------- MODULES ----------
 // import './js/script-1.js'
