@@ -85,3 +85,6 @@ console.log(localeUs) // Monday, Mar 19, 2018, 5:43 PM
 console.log(date2.toString())
 console.log(date2.toDateString())
 console.log(date2.toTimeString())
+
+const objDate = new Date()
+console.log(objDate)
