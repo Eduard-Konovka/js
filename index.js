@@ -2,6 +2,8 @@
 // import './js/script-0.js'
 // import './js/local-storage.js'
 // import './js/async.js'
+// import './js/promise.js'
+import './js/test.js'
 
 // ---------- MODULES ----------
 // import './js/script-1.js'
@@ -16,4 +18,4 @@
 // import './js/03-counter.js'
 // import './js/array-methods.js'
 // import './js/gallery.js'
-import './js/timer.js'
+// import './js/timer.js'
