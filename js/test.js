@@ -1,8 +1,6 @@
-const getUsers = async () => {
-  const response = await fetch('https://jsonplaceholder.typicode.com/users')
-  const users = response.json()
-
-  return users
-}
-
-getUsers().then(users => console.log(users))
+// throw new Error(message)
+// // -----------------------------
+// .then(message => {
+//       if (!message) return
+//       createGalleryImages()
+//     })
