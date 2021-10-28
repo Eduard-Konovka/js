@@ -3,8 +3,8 @@
 // import './js/local-storage.js'
 // import './js/async.js'
 // import './js/promise.js'
-import './js/IntersectionObserver.js'
-// import './js/test'
+// import './js/IntersectionObserver.js'
+import './js/test.js'
 
 // ---------- MODULES ----------
 // import './js/script-1.js'
